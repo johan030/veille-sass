@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
+
+/*********************************************************/
+/*------ GENERAL SETUP ------*/
+/*********************************************************/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/**********************************************************/
+/* ------ HEADER ------*/
+/**********************************************************/
+
+
+header{
+    font-family: 'Lato', sans-serif;
+    background-image: linear-gradient(to right bottom,#4c4d4ccc, #2c2c2c94),url(./image/background.jpg);
+    background-size: cover;
+    background-position: top top;
+    min-height: 100vh;
+    position: relative;
+}
+/* ------ HEADER navigation ------*/
+
+
+header nav{
+
+display: flex;
+justify-content: center;
+}
+
+header nav{
+    padding-top: 20px;
+}
+
+
+header nav ul {
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+header nav ul li{
+    list-style-type: none;
+}
+
+
+header nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 100;
+    text-transform: uppercase;
+    letter-spacing: 2px
+}
+
+header nav ul li a:hover {
+    color: rgb(209, 160, 69);
+    transition: 1s;
+}
+
+
+
+
+/* ------ HEADER hero title ------*/
+
+
+.text-box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-40%, -40%);   
+}
+
+
+.text-box h1{
+    display: block;
+    font-size: 60px;
+    font-weight: 400;
+    letter-spacing: 10px;
+    color: rgb(209, 160, 69);
+
+}
+
+.text-box span{
+    display: block;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 5px;
+    
+}
+
+
+
+/* ------ buttons ------*/
+
+.btn:link,
+.btn:visited {
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 20px;
+    display: inline-block;
+    margin-top: 50px;
+
+}
+.btn:hover{
+    transform: translateX(-5px);
+    color: black;
+    transition: 1s;
+}
+.btn-orange {
+    background-color: rgb(209, 160, 69);
+    color: #fff;
+    padding: 15px 40px;    
+}
